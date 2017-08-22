@@ -1,0 +1,66 @@
+/* header and navigation */
+
+#myt-logo {
+  color: MediumAquamarine;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  border-bottom: solid black 1px;
+  padding: 15px;
+}
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  border-bottom: solid black 1px;
+  padding-top: 15px;
+}
+
+span a {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+/* div border - to delete later */
+div {
+  border: solid black 1px;
+}
+
+
+/* Content */
+
+
+.main_content {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+}
